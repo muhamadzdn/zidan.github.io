@@ -28,6 +28,7 @@ a {
 .container {
   width: min(1120px, calc(100% - 48px));
   margin: 0 auto;
+  /* margin-top: 1rem; */
 }
 .section-pad {
   padding: clamp(5rem, 11vw, 9.5rem) 0;
@@ -125,7 +126,7 @@ em {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 2.7rem;
 }
 .hero-grid {
   display: grid;
@@ -199,7 +200,8 @@ h1 {
 }
 .button-primary:hover {
   transform: translateY(-3px);
-  background: #44463e;
+  background: #82cb15;
+  color: rgb(15, 15, 15);
 }
 .text-link {
   display: inline-flex;
@@ -267,7 +269,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-top: auto;
+  margin-top: 10px;
   color: var(--muted);
   font-size: 0.68rem;
   letter-spacing: 0.08em;
